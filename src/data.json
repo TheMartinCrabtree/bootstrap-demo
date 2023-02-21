@@ -2,28 +2,28 @@
   {
     "id": 1,
     "name": "Incursus",
-    "image": "/images/Incursus.jpg",
+    "image": "../images/Incursus.jpg",
     "info": "The Incursus may be found both spearheading and bulwarking Gallente military operations. Its speed makes it excellent for skirmishing duties, while its resilience helps it outlast its opponents on the battlefield. Incursus-class ships move together in groups and can quickly and effectively gang up on ships many times their size and overwhelm them. In recent years the Incursus has increasingly found its way into the hands of pirates, who love its aggressive appearance.",
     "price": 350000
   },
   {
     "id": 2,
     "name": "Merlin",
-    "image": "/images/Merlin.jpg",
+    "image": "../images/Merlin.jpg",
     "info": "The Merlin is the most powerful combat frigate of the Caldari. Its role has evolved through the years, and while its defenses have always remained exceptionally strong for a Caldari vessel, its offensive capabilities have evolved from versatile, jack-of-all-trades attack patterns into focused and deadly gunfire tactics. The Merlin's primary aim is to have its turrets punch holes in opponents' hulls.",
     "price": 290000
   },
   {
     "id": 3,
     "name": "Punisher",
-    "image": "/images/Punisher.jpg",
+    "image": "../images/Punisher.jpg",
     "info": "The Punisher is considered by many to be one of the best Amarr frigates in existence. As evidenced by its heavy armaments, the Punisher is mainly intended for large-scale military operations, acting in coordination with larger military vessels. With its damage output, however, it is also perfectly capable of punching its way right through unwary opponents.",
     "price": 420000
   },
   {
     "id": 4,
     "name": "Rifter",
-    "image": "/images/Rifter.jpg",
+    "image": "../images/Rifter.jpg",
     "info": "The Rifter is a very powerful combat frigate and can easily tackle the best frigates out there. It has gone through many radical design phases since its inauguration during the Minmatar Rebellion. The Rifter has a wide variety of offensive capabilities, making it an unpredictable and deadly adversary.",
     "price": 480000
   }
