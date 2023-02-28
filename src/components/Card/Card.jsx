@@ -1,6 +1,7 @@
 import React from "react";
 import { Toast, ToastContainer } from "react-bootstrap";
 import styled from "styled-components";
+import shipImgs from "../../images";
 
 const CardContainer = styled.div`
   min-height: 800px;
@@ -8,6 +9,7 @@ const CardContainer = styled.div`
 
 const Card = (props) => {
   const { id, name, image, info, price } = props;
+  // debugger;
 
   return (
     <Toast id={id}>
@@ -15,9 +17,11 @@ const Card = (props) => {
         <Toast.Header>
           <strong className="temp">Ship: {name}</strong>
         </Toast.Header>
-        <Toast.Body>
-          <img src={image && require(image)} alt={name} />
-        </Toast.Body>
+        {name && (
+          <Toast.Body>
+            <img src={require(`../../images/${name}.jpg`)} alt={name} />
+          </Toast.Body>
+        )}
         <Toast.Body>Info: {info}</Toast.Body>
         <Toast.Body>Price: {price.toString()} ISK</Toast.Body>
       </CardContainer>
