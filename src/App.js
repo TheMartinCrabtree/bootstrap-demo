@@ -24,7 +24,7 @@ function App() {
   const _renderCards = (dataArr) => {
     return dataArr.map((data) => {
       return (
-        <Carousel.Item interval={200000}>
+        <Carousel.Item interval={20000}>
           <CardWrapper>
             <Card {...data} />
           </CardWrapper>
@@ -34,6 +34,7 @@ function App() {
   };
 
   const _handleSelect = (cardIndex, event) => {
+    // updating current index
     setIndex(cardIndex);
   };
 
