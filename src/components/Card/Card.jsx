@@ -1,7 +1,6 @@
 import React from "react";
 import { Toast, ToastContainer } from "react-bootstrap";
 import styled from "styled-components";
-import shipImgs from "../../images";
 
 const CardContainer = styled.div`
   min-height: 800px;

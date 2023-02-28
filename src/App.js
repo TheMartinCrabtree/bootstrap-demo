@@ -11,7 +11,6 @@ import ships from "./data.json";
 const BackgroundWrapper = styled.div`
   background-color: black;
 `;
-
 const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
