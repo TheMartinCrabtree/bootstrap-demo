@@ -16,7 +16,7 @@ const Card = (props) => {
           <strong className="temp">Ship: {name}</strong>
         </Toast.Header>
         <Toast.Body>
-          <img src={image} alt={name} />
+          <img src={image && require(image)} alt={name} />
         </Toast.Body>
         <Toast.Body>Info: {info}</Toast.Body>
         <Toast.Body>Price: {price.toString()} ISK</Toast.Body>
